@@ -6,18 +6,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Seiten Infos:-->
-    <title>MMO-WDE::HTML & CSS</title>
+    <title>MMO-WDE::Display-flex</title>
     <meta name="description" content="Web Development Examples">
     <meta name="Autor" content="Alexander Rudi">
     <meta name="copyright" content="MYCROMARS OPERATIONS">
     <link rel="icon" type="x-icon" href="favicon.ico">
+    <!--CSS Datei:-->
+    <link href="css/display-flex.css" rel="stylesheet">
 </head>
 
 <body>
 <!--Menu 1-->
 <nav>
     <ul>
-        <li><a href="html.html">back</a></li>
+        <li><a href="examples.html">BACK</a></li>
     </ul>
 </nav>
 
@@ -31,155 +33,42 @@
     <main>
         
         <h2>main</h2>
-        <div class="bigBox">
+        <div class="container">
             
             <div class="box1">
-                <h2>box1</h2>
+                <h2>box 1</h2>
             </div>
 
              <div class="box2">
-                <h2>box2</h2>
+                <h2>box 2</h2>
             </div>
 
             <div class="box3">
-                <h2>box3</h2>
+                <h2>box 3</h2>
             </div>
 
             <div class="box4">
-                <h2>box4</h2>
+                <h2>box 4</h2>
             </div>
 
             <div class="box5">
-                <h2>box5</h2>
+                <h2>box 5</h2>
             </div>
 
             <div class="box6">
-                <h2>box6</h2>
+                <h2>box 6</h2>
             </div>
 
             <div class="box7">
-                <h2>box7</h2>
+                <h2>box 7</h2>
             </div>
 
             <div class="box8">
-                <h2>box8</h2>
+                <h2>box 8</h2>
             </div> 
-            <h2>bigBox</h2>
+            <h2>Container</h2>
         </div>
 
-        <style>
-            body {
-                background-color: #657964;
-                margin: 0;
-                color: aliceblue;
-
-                /* Das nächste Box-Element: main */
-                display: flex;
-                flex-flow: column;  
-                align-items: center;
-    
-            }
-
-            main {
-                background-color: rgb(59, 61, 73);
-                color: rgb(96, 176, 212);
-                width: 600px;
-                /* height: 600px; */
-                height: auto;
-                max-width: 90%;
-
-                /* Das nächste Box-Element: bigBox */
-                display: flex;
-                flex-flow: column;
-
-                /* Vertikal Box*/
-                justify-content: center;
-
-                /* Horizontal Box*/
-                align-items: center; 
-                /* align-self: center; */
-            }
-
-            .bigBox {
-                background-color: rgb(100, 103, 133);
-                width: 500px;
-                /* height: 400px; */
-                height: auto;
-                max-width: 90%;
-                
-                /* Das nächste Box-Element: box1...box8 */
-                display: flex; 
-                flex-flow: wrap;
-
-                /* Horizontal Box*/
-                justify-content: center;
-
-                /* Vertikal Box*/
-                align-items: center; 
-
-                /* flex-flow: column; */
-                /* flex: 1; */
-                /* align-items: center; */
-
-                /* flex-flow: row; */
-                
-                /* display: grid;
-                grid-template-columns: 1fr 1fr 1fr; */
-                /* grid-column: span 2; */
-            }
-
-            .box1,
-            .box2,
-            .box3,
-            .box4 {
-                background-color: rgb(187, 212, 72);
-                text-align: center;
-                color: black;
-                width: 100px;
-                height: 100px;
-                /* box-sizing: border-box; */
-
-                border-style: solid;
-                border-color: rgb(0, 0, 0);
-                border-width: 2px;
-                margin-right: 5px;
-                margin-left: 5px;
-                margin-top: 10px;
-
-                display: flex;
-                /* Horizontal Text*/
-                justify-content: center;
-
-                /* Vertikal Text*/
-                align-items: center;
-            }
-
-            .box5,
-            .box6,
-            .box7,
-            .box8 {
-                background-color: rgb(130, 151, 35);
-                text-align: center;
-                color: black;
-                width: 100px;
-                height: 100px;
-
-                border-style: solid;
-                border-color: rgb(0, 0, 0);
-                border-width: 2px;
-                margin-right: 5px;
-                margin-left: 5px;
-                margin-top: 10px;
-                /* margin-bottom: 10px; */
-                
-                display: flex;
-                /* Horizontal Text*/
-                justify-content: center;
-
-                /* Vertikal Text*/
-                align-items: center;
-            } 
-        </style>
     </main>
 
 </body>
