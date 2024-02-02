@@ -1,0 +1,120 @@
+/* -----------------------------------------*/
+/* -------------- Screen CSS ---------------*/
+/* -----------------------------------------*/
+
+/* Media screen <850px -----------------------------------------*/
+@media screen and (max-width: 850px) {
+    .header_logo img{
+        margin-left: 45px;
+    }
+
+    .header_title {
+        font-size: 1.5rem;
+        margin-top: -25px;
+        margin-left: 25px;
+    }
+
+    .header_title h2{
+        font-size: 2.65rem;
+    }
+
+    .contact_address {
+        font-size: 1.2rem;
+    }
+} 
+
+/* Media screen <720px -----------------------------------------*/
+@media screen and (max-width: 720px) {
+    main {
+        font-size: 90%;
+    }
+
+    .header_logo img{
+        margin-left: 30px;
+    }
+
+    .header_title {
+        font-size: 1.2rem;
+        margin-top: -18px;
+        margin-left: 20px;
+    }
+
+    .header_title h2{
+        font-size: 2.15rem;
+    }
+}
+
+/* Media screen <600px -----------------------------------------*/
+@media screen and (max-width: 600px) {
+    /* Navi *********** */
+    .navi {
+        font-size: 1.5rem;
+        position: relative;
+    }
+
+    .footer_navi {
+        font-size: .9rem;
+    }
+
+    /* Site *********** */
+    main {
+        font-size: 80%;
+    }
+
+    .header_logo img{
+        margin-left: 0;
+        /* text-align: center; */
+        /* width: 110px; */
+    }
+
+    .header_title {
+        font-size: 1.1rem;
+        margin-top: -15px;
+        margin-bottom: -20px;
+        margin-left: 0px;
+    } 
+
+    .header_title h2{
+        font-size: 2rem;
+    }
+
+    .site_header {
+        text-align: center;
+        display: block;
+    }
+
+    .content {
+        display: block;
+    }
+    .content_header {
+        font-size: 1rem;
+    }
+
+    .content_infos {
+        margin-top: 1rem;
+        padding-top: 0;
+    }
+
+    article {
+        width: auto;
+    } 
+
+    /* Contact *********** */
+    form {
+        max-width: 80%;
+    }
+
+    .contact_title {
+        text-align: center;
+        /* font-size: 2rem; */
+       margin-bottom: 30px;
+    }
+
+    .contactform_title {
+        text-align: center;
+    }
+
+    .contact_address {
+        font-size: 1rem;
+    }
+}

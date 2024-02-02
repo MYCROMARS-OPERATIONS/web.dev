@@ -1,0 +1,83 @@
+/* ------------------------------------------*/
+/* -------------- Contact CSS ---------------*/
+/* ------------------------------------------*/
+.contact_form {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.contact_address {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+form {
+    background: var(--color-base-1, rgb(100, 100, 100));
+    
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem 2rem;
+    width: 400px;
+    
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form h2 {
+    color: var(--color-nav-font-2, rgb(0, 0, 0));
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    align-self: center;
+    max-width: 100%; 
+    min-width: 100%;
+    border: 0;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    background: var(--color-base-4, rgb(255, 255, 255));
+    font-size: 12px
+}
+
+form textarea {
+    min-height: 8rem;
+    max-height: 25rem;
+}
+
+form button {
+    align-self: center;
+    background: var(--color-button-1, rgb(165, 165, 165));
+    color: var(--color-nav-font-3, rgb(0, 0, 0));
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 140px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+form button:hover,
+form button:focus {
+    background: var(--color-button-2, rgb(255, 255, 255));
+    color: var(--color-font-0, rgb(0, 0, 0));
+}
+
+#i{
+    text-align: center;
+}
+
+#b2, #b1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#b2 {
+    visibility: hidden;
+}

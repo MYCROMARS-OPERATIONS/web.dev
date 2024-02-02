@@ -1,0 +1,68 @@
+/* -----------------------------------------*/
+/* -------------- Layout CSS---------------*/
+/* -----------------------------------------*/
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
+}
+
+figure {
+    margin: 0;
+}
+
+/*IMG Info*/
+figcaption {
+    color: var(--color-font-2, rgb(0, 0, 0));
+    font-size: 1rem;
+}
+
+.text-align {
+    text-align: center;
+}
+
+/* Portfolio ************/
+.img_size--1 {
+    max-width: 400px;
+}
+
+.img_size--2 {
+    max-width: 200px;
+}
+
+/* Main Content -----------------------------------------*/
+/* Inside and outside distances */
+main {
+    min-height: 75vh;
+}
+
+/* Horizontal zentriert */
+.main_content {
+    width: 800px;
+    max-width: 95%;
+    line-height: 1.5;
+    align-self: center;
+}
+
+.content {
+    display: grid;
+    gap: 1rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.content_header {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.content_title {
+    margin-top: 0;
+}
+
+.content_infos {
+    border: 2px solid var(--color-border, rgb(255, 255, 255));
+    margin-top: -10px;
+    padding: .8rem;
+    border-radius: 0.2rem;
+}

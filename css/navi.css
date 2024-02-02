@@ -1,0 +1,56 @@
+/* ---------------------------------------------*/
+/* -------------- Navigation CSS ---------------*/
+/* ---------------------------------------------*/
+
+.navi, .footer_navi {
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: var(--color-nav-font-1);
+    background-color: var(--color-base-1, rgb(100, 100, 100));
+    position: sticky;
+    top: 0;
+}
+
+.navi_list, .footer_navi_list {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.navi_link {
+    color: var(--color-nav-font-1, rgb(0, 0, 0));
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+}
+
+.navi_link--current {
+    font-weight: bold;
+    color: var(--color-nav-font-2, rgb(0, 0, 0));
+}
+
+.navi_link:hover,
+.navi_link:focus {
+    color: var(--color-nav-font-3, rgb(0, 0, 0));
+}
+
+/* Footer -----------------------------------------*/
+.footer_content {
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--color-font-3, rgb(0, 0, 0));
+    background-color: var(--color-base-1, rgb(100, 100, 100));
+    text-align: center;
+}
+
+.footer_content li:nth-child(3) {
+    margin-left: auto;
+}
+
+.footer_content li:last-child {
+    margin-right: 0;
+    margin-left: auto;
+}
+
