@@ -20,7 +20,7 @@
   <nav class="navi">
     <ul class="navi_list">
       <li> <a href="index.html" class="navi_link">Start</a> </li>
-      <li> <a href="html&CSS.html" class="navi_link">HTML&CSS</a> </li>
+      <li> <a href="html.html" class="navi_link">HTML</a> </li>
       
       <li> <a href="kontakt.html" class="navi_link--current navi_link">Kontakt</a> </li>
     </ul>
@@ -32,8 +32,7 @@
       <div class="header_logo">
         <a href="index.html">
           <img src="images/logo.png" alt="Logo" width="199" height="199">
-          <!-- <img class="header_logo" src="images/mmo_logo_200.png" srcset="images/mmo_logo_400.png 2x" 
-                    alt="Logo" width="200" height="117"> -->
+       
         </a>
       </div>
       <div class="header_title">
@@ -56,8 +55,6 @@
         <div class="contact_address">
           <strong>Alexander Rudi </strong>| Software Developer
         </div>
-        <!-- <a href="mailto:info@mycromars-operations.com" class="web_link">MAIL</a><br> -->
-        <!--EMAIL PHP-->
         <?php
         if (isset($_POST["submit"])) {
           mail(
