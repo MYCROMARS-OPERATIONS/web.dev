@@ -7,7 +7,7 @@ html {
 
     --color-font-0: rgb(255, 255, 255);
     --color-font-1: rgb(0, 0, 0);
-    --color-font-2: rgb(201, 201, 201);
+    --color-font-2: rgb(255, 255, 255);
     --color-font-3: rgb(172, 172, 172);
     --color-font-4: #57df74;
 
@@ -17,13 +17,13 @@ html {
 
     --color-base-1: #2d3f32;
     --color-base-2: #297c3e;
-    --color-base-3: #657964;
+    --color-base-3: #8bc088;
     --color-base-4: rgb(197, 255, 212);
 
     --color-button-1: rgb(46, 187, 72);
     --color-button-2: rgb(62, 247, 96);
 
-    --color-border: rgb(188, 209, 190);
+    --color-border: rgb(164, 248, 173);
 }
 
 /* Basic design for font and text ------------------------------*/ 
