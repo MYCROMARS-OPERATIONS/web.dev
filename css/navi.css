@@ -54,3 +54,27 @@
     margin-left: auto;
 }
 
+.examples_link {
+    background-color: var(--color-button-1, rgb(100, 100, 100));
+    color: var(--color-base-4, rgb(255, 255, 255));
+    text-decoration: none;
+    font-size: 24px;
+
+    padding: 0.2rem;
+    width: 150px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: aquamarine;
+
+}
+
+.examples_link:hover,
+.examples_link:focus {
+    background-color: var(--color-button-2, rgb(100, 100, 100));
+    color: var(--color-nav-font-0, rgb(255, 255, 255));
+}
+

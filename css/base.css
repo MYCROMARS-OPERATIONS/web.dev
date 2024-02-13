@@ -78,3 +78,16 @@ body {
     margin-top: -10px;
 }
 
+main {
+    /* Das nächste Box-Element: bigBox */
+    display: flex;
+    flex-flow: column;
+
+    /* Vertikal Box*/
+    justify-content: center;
+
+    /* Horizontal Box*/
+    align-items: center; 
+    /* align-self: center; */
+}
+
